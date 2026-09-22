@@ -11,7 +11,7 @@ while(courseTextNode=brandText.nextNode()){
  courseTextNode.nodeValue=courseTextNode.nodeValue.replace(/PERS 2002/g,'X-RISK Course');
 }
 document.querySelectorAll('.article-footer').forEach(footer=>{
- footer.innerHTML="<p>X-RISK Course · Existential Risk: An Open Course</p><p>Designed and led by Professor Stephen H. Shore. Online contributors: Abbad Ali and Suyog Thengale.</p><p><a href=\"/index.html\">Course overview</a> · <a href=\"/learn/about-the-course-team/index.html\">Team</a> · <a href=\"/learn/course-overview/index.html\">Start here</a></p>";
+ footer.innerHTML="<p>X-RISK Course · Existential Risk: An Open Course</p><p>Designed and led by Professor Stephen H. Shore. Online contributors: Abbad Ali and Suyog Thengale.</p><p><a href=\"/index.html\">Course overview</a> · <a href=\"/learn/about-the-course-team/index.html\">Team</a> · <a href=\"/learn/course-overview/index.html\">Start here</a></p><p>Original course materials © Stephen H. Shore · <a href=\"/LICENSE.md\">CC BY-NC 4.0</a>. Third-party materials retain their own terms.</p>";
 });
 document.querySelectorAll('.nav-utility a,.course-nav a').forEach(link=>{
  if(new URL(link.href).pathname===location.pathname&&!new URL(link.href).hash){
