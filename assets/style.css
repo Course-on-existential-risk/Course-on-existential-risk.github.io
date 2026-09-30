@@ -19,3 +19,8 @@
 
 /* This is a self-paced public resource; completion controls are intentionally hidden. */
 .lesson-finish,.progress-card,.sidebar-progress{display:none!important}
+
+/* Overview copy uses the existing reading typography. */
+.overview-description{font-size:1rem;line-height:1.8}.overview-description h2{font-size:1.6rem}.overview-section{max-width:900px;margin:28px 0 44px}.overview-section h2{scroll-margin-top:24px}.overview-section li{margin-bottom:16px}.nav-utility{margin-bottom:12px}.start-nav summary{font-weight:600}.brand strong,.mobile-bar>a{ text-transform:none }
+.hero-copy > .eyebrow,.brand-mark{text-transform:none}
+.lesson-body a.button-primary{color:var(--paper)}.lesson-body a.button-primary:hover{color:#fff}
